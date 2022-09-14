@@ -1,6 +1,6 @@
 import os
 
-os.system("cd {{cookiecutter.project_name}}")
+os.system('cd "{{cookiecutter.project_name}}"')
 os.system("poetry install")
 os.system("git init")
 os.system("git add .")

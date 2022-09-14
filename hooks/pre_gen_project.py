@@ -2,9 +2,9 @@ import re
 import sys
 
 project_name = "{{cookiecutter.project_name}}"
-PROJECT_NAME_REGEX = r"^[a-z][-_a-z0-9]+$"
+PROJECT_NAME_REGEX = r"^[A-Za-z][-_A-Za-z0-9]+$"
 if not re.match(PROJECT_NAME_REGEX, project_name):
-    print("project_name has to match /^[a-z][-_a-z0-9]+$/")
+    print("project_name has to match /^[A-Za-z][-_A-Za-z0-9]+$/")
     sys.exit(1)
 
 module_name = "{{cookiecutter.module_name}}"
