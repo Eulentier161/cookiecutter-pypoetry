@@ -1,0 +1,7 @@
+{
+    "project_name": "my-project",
+    "module_name": "my_module",
+    "author_name": "Eulentier161",
+    "author_mail": "eulentier161@gmail.com",
+    "description": "A Project build from cookiecutter-pypoetry"
+}
